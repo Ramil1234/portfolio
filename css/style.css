@@ -71,6 +71,9 @@ html {
   margin: 0 auto;
   position: relative;
 }
+.container__main_ul__mobile {
+  display:none
+}
 
 .left-wrapper {
   position: relative;
