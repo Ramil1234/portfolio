@@ -1,0 +1,53 @@
+body { 
+  background-color: rgba(40, 44, 51, 1);
+
+}
+html { 
+  font-size: 62.5%;
+  font-family: 'FiraCode-R';
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+  background-color: rgb(40 44 51 / 150%);
+  max-width: 102.4rem;
+  margin: 0 auto;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+@font-face {
+  font-family: "FiraCode-R"; 
+  src: url("./fonts/FiraCode-Regular.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+@font-face {
+  font-family: "FiraCode-B"; 
+  src: url("./fonts/FiraCode-Bold.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+@font-face {
+  font-family: "FiraCode-M"; 
+  src: url("./fonts/FiraCode-Medium.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 

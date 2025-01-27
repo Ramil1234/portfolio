@@ -1,0 +1,30 @@
+.logo 
+    display: flex
+    color: white
+    gap: .8rem
+    font-family: 'FiraCode-B'
+    font-size: 1.6rem
+.header 
+    padding: 3.2rem 0
+    display: flex
+    justify-content: space-between
+    &-ul
+        list-style: none
+        display: flex
+        color: #ABB2BF
+        font-size: 1.6rem
+        font-family: "FiraCode-M"
+        gap: 3.2rem
+        padding: 0
+        margin: 0
+    &-li 
+        a 
+            text-decoration: none
+            color: inherit 
+        &::before
+            content: '#'
+            display: inline-flex
+            color: #C778DD
+        &:hover
+            color: white
+            transition: .3s all
