@@ -1,0 +1,58 @@
+.project-grid-box-untitle
+    color: white 
+    font-size: 2.4rem
+    border: 1px solid gray
+    padding: 1.6rem
+    display: flex
+    flex-direction: column
+    gap: 1.6rem
+    h3 
+        margin: 0
+    span
+        margin: 0  
+.project-grid-box 
+    max-width: 33rem
+    border: 1px solid gray
+    @media (max-width: 767px)
+        max-width: none
+    &-wrapper 
+        &-img 
+            width: 100%
+            height: auto
+        button
+            max-width: 11rem
+.projects-title
+    color: white
+    font-size: 3.2rem
+    font-family: 'FiraCode-R'
+    margin: 0
+    display: inline-flex
+    align-items: center
+    margin: 0 0 5rem 0
+    &::before
+        content: '#'
+        display: inline-flex
+        color: #C778DD;
+    &::after
+        content: ' '
+        width: 51rem
+        display: inline-flex
+        height: 1px
+        background-color: #C778DD
+        margin-left: 1.6rem
+        @media (max-width: 767px)
+            width: 50vw
+
+.project-box
+    text-align: left 
+    margin-bottom: 10rem   
+    &-wrapper 
+        text-align: auto
+        display: flex
+        flex-direction: row
+        gap: 1.6rem
+        @media (max-width: 768px)
+            flex-direction: column 
+            align-items: center
+        div
+            margin: 0

@@ -1,25 +1,69 @@
-body { 
+body {
   background-color: rgba(40, 44, 51, 1);
-
+  position: relative;
+  overflow: hidden;
 }
-html { 
+html {
   font-size: 62.5%;
-  font-family: 'FiraCode-R';
+  font-family: "FiraCode-R";
   box-sizing: border-box;
+  overflow-x: hidden;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  html {
+    font-size: 45%;
+  }
+}
+@media (max-width: 480px) {
+  html {
+    font-size: 40%;
+  }
 }
 .App {
   text-align: center;
-  background-color: rgb(40 44 51 / 150%);
   max-width: 102.4rem;
   margin: 0 auto;
+  z-index: 99;
 }
-
+@media (max-width: 768px) {
+  .App {
+    max-width: none;
+    padding: 0 2rem;
+  }
+}
+.square-gl {
+  left: 93vw;
+  top: 85vw;
+  z-index: 1;
+  width: 15.5rem;
+  height: 15.5rem;
+  border: 1px solid gray;
+  position: absolute;
+  z-index: -1;
+}
+.square-gs {
+  left: -7vw;
+  top: 150vw;
+  z-index: 1;
+  width: 15.5rem;
+  height: 15.5rem;
+  border: 1px solid gray;
+  position: absolute;
+  z-index: -1;
+}
+.line-gl {
+  transform: rotate(-90deg);
+  width: 40rem;
+  height: 1px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: -7%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
-
 
 .App-header {
   min-height: 100vh;
@@ -31,23 +75,19 @@ html {
   color: white;
 }
 
-
-
 @font-face {
-  font-family: "FiraCode-R"; 
-  src: url("./fonts/FiraCode-Regular.ttf") format("truetype"); 
-  font-style: normal; 
-  font-weight: normal; 
-} 
+  font-family: "FiraCode-R";
+  src: url("./fonts/FiraCode-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
 @font-face {
-  font-family: "FiraCode-B"; 
-  src: url("./fonts/FiraCode-Bold.ttf") format("truetype"); 
-  font-style: normal; 
-  font-weight: normal; 
-} 
+  font-family: "FiraCode-B";
+  src: url("./fonts/FiraCode-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
 @font-face {
-  font-family: "FiraCode-M"; 
-  src: url("./fonts/FiraCode-Medium.ttf") format("truetype"); 
-  font-style: normal; 
-  font-weight: normal; 
-} 
+  font-family: "FiraCode-M";
+  src: url("./fonts/FiraCode-Medium.ttf") format("truetype");
+}

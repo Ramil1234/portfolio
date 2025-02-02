@@ -2,21 +2,38 @@
     width: 46.9rem
     height: auto
     right: 0
+    // left: 0
     z-index: 2
     position: absolute
+    @media (max-width: 480px)
+        width: 100%
+        position: relative
 .contact-icon-purple 
     position: absolute
     top: 10rem
-    left: 2.5rem
+    left: 2.5rem    
     z-index: 1
 .main-contact-wrapper 
     display: flex
     min-height: 42.3rem
     width: 100%
+    @media (max-width: 768px)
+        flex-direction: column
+.main-title-wrapper 
+    @media (max-width: 768px)
+        button
+            display: none !important
 .main-contact-img 
     position: relative
     display: inline-flex
     width: 100%
+    &-wrapper 
+        height: 32rem
+        @media (max-width: 480px)
+            height: auto
+            width: 100%
+            position: relative
+
 .main-title 
     color: white
     font-size: 3.2rem
@@ -24,21 +41,27 @@
     &-wrapper 
         width: 100%
 .main-title-undertitle 
-    font-size: 1.6rem
-    color: #ABB2BF
     max-width: 46.3rem
-    font-family: 'FiraCode-R'
+.title-undertitle 
+    color: #ABB2BF
+    font-size: 1.6rem
     margin: 3.2rem 0 2.4rem 0
+    font-family: 'FiraCode-R'
+
 .main-contact 
     text-align: left
+    margin-bottom: 7.4rem
+    @media (max-width: 480px)
+        text-align: center
 .main-title-button 
-    width: 14.8rem
-    height: 3.6rem
+    padding: .8rem 1.6rem
     background-color: rgba(40, 44, 51, 1)
     border: 1px solid #C778DD
     color: white
     font-size: 1.6rem
     cursor: pointer
+    display: inline-block
+    font-family: 'FiraCode-R'
 .main-contact-img-text 
     border: 1px solid gray
     color: gray
@@ -52,15 +75,32 @@
     right: 3.5rem
     background-color: rgba(40, 44, 51, 1)
     z-index: 11
+    p 
+        margin: 0
+    @media (max-width: 768px)
+        bottom: -11.5rem
+    @media (max-width: 480px)
+        bottom: -7rem
+        right: 0
+        width: 97%
+        font-size: 16px
+        height: auto
+        p 
+            font-size: 20px
+            text-align: left
     &::before
         content: ''
         width: 1.6rem
         height: 1.6rem
         background-color: #C778DD
         display: block
-        margin: 0 1rem 0 .8rem
+        margin: auto 3rem auto 2rem
         transform: translateY(.3rem)
+        @media (max-width: 480px) 
+            width: 3rem
+            height: 3rem
 .quote-style 
+    position: relative
     border: 1px solid gray
     color: white 
     font-size: 2.4rem
@@ -73,6 +113,28 @@
     &-wrapper 
         display: flex
         justify-content: center
-        margin: 11rem 0 0 0    
+        margin: 11rem 0 0 0  
+        @media (max-width: 768px) 
+            margin: 21rem 0 0 0  
 .main-contact-quote_under 
     display: inline-flex
+.quote-style-up 
+    background-color: #282C33
+    border-radius: 10rem
+    color: #ABB2BF
+    position: absolute
+    z-index: 99
+    top: -1.5rem
+    left: 1rem
+    width: 4rem
+    font-size: 3rem
+.quote-style-under 
+    background-color: #282C33
+    border-radius: 10rem
+    color: #ABB2BF
+    position: absolute
+    z-index: 99
+    bottom: -1.5rem
+    right: 1rem
+    width: 4rem
+    font-size: 3rem

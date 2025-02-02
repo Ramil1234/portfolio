@@ -1,0 +1,76 @@
+.skills 
+    text-align: left
+    margin-bottom: 10rem
+.tablet-title 
+    color: white
+    font-size: 1.6rem
+    border: 1px solid gray
+    margin: 0
+    padding: .8rem
+.skills-wrapper-tablet-box 
+    border: 1px solid gray
+    max-width: 17.8rem
+    height: min-content
+    p 
+        padding: .8rem
+        margin: 0
+        line-height: 1.8
+.skills-wrapper-tablet 
+    display: flex
+    flex-wrap: wrap
+    justify-content: flex-end
+    gap: 1.6rem
+    max-width: 58.4rem
+    @media (max-width: 767px)
+        justify-content: center
+        margin: 0 auto
+
+.skills-wrapper
+    display: inline-flex
+    width: 100%
+    justify-content: space-between
+    &-img
+        max-width: 35rem
+        width: 100%
+        position: relative
+        height: 28rem
+        @media (max-width: 767px) 
+            display: none
+        img 
+            position: absolute
+            bottom: 0
+            left: 5rem
+.dots 
+    display: grid 
+    grid-template-columns: repeat(5, min-content)
+    grid-template-rows: repeat(5,min-content)
+    gap: 1rem
+    position: absolute
+    top: 5rem
+    left: 3rem
+.right-pos 
+    top: 12rem
+    left: 25rem
+.dot 
+    width: 4px
+    &::after
+        content: ' '
+        width: .4rem
+        height: .4rem
+        border-radius: 10rem
+        background-color: gray
+        display: block
+.square 
+    border: 1px solid gray
+.xl 
+    width: 8.6rem
+    height: 8.6rem
+    position: absolute
+    right: 0
+    top: 0
+.l 
+    width: 5.2rem
+    height: 5.2rem
+    position: absolute
+    bottom: 5rem
+    right: 0
