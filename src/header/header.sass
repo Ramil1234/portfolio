@@ -17,7 +17,10 @@
         gap: 3.2rem
         padding: 0
         margin: 0
+        @media (max-width: 767px)
+            display: none
     &-li 
+        color: gray
         a 
             text-decoration: none
             color: inherit 
@@ -31,8 +34,12 @@
 .header-ul-mobile
     display: none
     list-style: none
+    z-index: 100
     @media (max-width: 767px) 
         display: flex
+        position: fixed
+        right: 16px
+        top: 25px
         flex-direction: column
         align-items: flex-end
         gap: 5px
@@ -54,3 +61,34 @@
     transform: rotate(45deg) translate(0px, 0px)
     transition: .5s all
     width: 24px
+.header-ul-mobile-list
+    display: inline-flex
+    list-style: none
+    flex-direction: column
+    background-color:rgba(40, 44, 51, 1) !important
+    position: fixed
+    width: 100vw
+    height: 100vh
+    transform: translateY(-100vh)
+    transition: .5s all ease-out;
+    z-index: 100
+    left: 0
+    margin: 0
+    row-gap: 30px
+    padding: 98px 0 0 16px
+    div 
+        position: absolute
+        top: 25px
+        left: 16px
+    &_anim 
+        transform: translateY(0)
+        transition: .5s all cubic-bezier(0.25, 0.1, 0.25, 1.0);
+    li 
+        display: inline-flex
+        &::before
+            font-size: 30px
+        a
+            font-size: 32px
+
+.body-mobile-anim 
+    position: fixed

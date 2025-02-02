@@ -6,8 +6,10 @@ body {
 html {
   font-size: 62.5%;
   font-family: "FiraCode-R";
-  box-sizing: border-box;
   overflow-x: hidden;
+}
+* { 
+  box-sizing: border-box;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   html {

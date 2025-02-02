@@ -3,8 +3,13 @@ import logo from "../img/union.svg";
 function onClicks() {
   const lineFirst = document.querySelector(".mobile-li-line-1");
   const lineTwo = document.querySelector(".mobile-li-line-2");
+  const mobileMenuLiseAnimation = document.querySelector('.header-ul-mobile-list')
+  const bodyTag = document.getElementsByTagName('body')
   lineFirst.classList.toggle("mobile-li-line-1-anim");
   lineTwo.classList.toggle("mobile-li-line-2-anim");
+  mobileMenuLiseAnimation.classList.toggle('header-ul-mobile-list_anim')
+  bodyTag[0].classList.toggle('body-mobile-anim')
+
 }
 function Header() {
   return (
@@ -15,6 +20,24 @@ function Header() {
       </div>
       <ul className="header-ul">
         <li className="header-li">
+          <a href="#">home</a>
+        </li>
+        <li className="header-li">
+          <a href="#">works</a>
+        </li>
+        <li className="header-li">
+          <a href="#">about-me</a>
+        </li>
+        <li className="header-li">
+          <a href="#">contacts</a>
+        </li>
+      </ul>
+      <ul className="header-ul-mobile-list ">
+      <div className="logo">
+        <img src={logo} alt="" className="logo" />
+        <span className="logo-name">Ramil'</span>
+      </div>
+      <li className="header-li">
           <a href="#">home</a>
         </li>
         <li className="header-li">
