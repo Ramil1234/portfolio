@@ -1,5 +1,8 @@
 import "./header.sass";
 import logo from "../img/union.svg";
+import { Link, Route, Routes } from 'react-router-dom';
+import Home from '../home/home.jsx'
+import Works from "../works/works"; 
 function onClicks() {
   const lineFirst = document.querySelector(".mobile-li-line-1");
   const lineTwo = document.querySelector(".mobile-li-line-2");
@@ -20,13 +23,13 @@ function Header() {
       </div>
       <ul className="header-ul">
         <li className="header-li">
-          <a href="#">home</a>
+          <Link  to='/'>home</Link>
         </li>
         <li className="header-li">
-          <a href="#">works</a>
+          <Link to="/works">works</Link>
         </li>
         <li className="header-li">
-          <a href="#">about-me</a>
+          <Link to="/aboutMe">about-me</Link>
         </li>
         <li className="header-li">
           <a href="#">contacts</a>

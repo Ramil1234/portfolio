@@ -16,7 +16,7 @@ function MainTitle() {
           <p className="main-title-undertitle title-undertitle">
             He crafts responsive websites where technologies meet creativity
           </p>
-          <button className="main-title-button">Contact me !!</button>
+          <button className="main-title-button"><span>Contact me !!</span></button>
         </div>
         <div className="main-contact-img">
           <div className="main-contact-img-wrapper">

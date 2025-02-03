@@ -57,16 +57,42 @@
     padding: .8rem 1.6rem
     background-color: rgba(40, 44, 51, 1)
     border: 1px solid #C778DD
-    color: white
+    color: white 
     font-size: 1.6rem
     cursor: pointer
     display: inline-block
     font-family: 'FiraCode-R'
+    position: relative
+    overflow: hidden
+    position: relative
+    span 
+        z-index: 4
+        position: relative
+        border: none !important
+    &:before
+        content: ''
+        width: 16rem
+        height: 7rem
+        background-color: #C778DD
+        position: absolute
+        transform: translateY(-9rem)
+        left: 0
+        z-index: 0
+        transition: .5s all
+        @media (max-width: 767px)
+            display: none
+    &:hover
+        &:before 
+            transform: translateY(-1rem)
+            transition: .5s all
+            z-index: 1
+
+
+            
 .main-contact-img-text 
     border: 1px solid gray
     color: gray
     width: 40rem
-    height: 2.1rem
     display: flex
     font-size: 1.6rem
     padding: .8rem

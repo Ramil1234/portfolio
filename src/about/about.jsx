@@ -22,7 +22,7 @@ function About() {
             newest technologies and frameworks.
           </p>
           <button className="main-title-button">
-            Read more <FontAwesomeIcon icon={faArrowRight} />
+            <span>Read more <FontAwesomeIcon icon={faArrowRight} /></span>
           </button>
         </div>
 
