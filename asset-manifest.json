@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.b0d23290.css",
+    "main.js": "/portfolio/static/js/main.b3ba20a9.js",
+    "static/media/factory.png": "/portfolio/static/media/factory.2f1709a10640aae8eb1b.png",
+    "static/media/organicVegetables.png": "/portfolio/static/media/organicVegetables.0e8edb4eff28887ec14b.png",
+    "static/media/game-club.png": "/portfolio/static/media/game-club.6e60ad645c7dd3ed5d6e.png",
+    "static/media/FiraCode-Bold.ttf": "/portfolio/static/media/FiraCode-Bold.c36b20e2c548913ed652.ttf",
+    "static/media/FiraCode-Regular.ttf": "/portfolio/static/media/FiraCode-Regular.dbd175e33b712ffcd71c.ttf",
+    "static/media/FiraCode-Medium.ttf": "/portfolio/static/media/FiraCode-Medium.bce95729a1b8e020f24d.ttf",
+    "static/media/face.svg": "/portfolio/static/media/face.a912a26fa709cd433b6416c56e69b0d5.svg",
+    "static/media/image-man.png": "/portfolio/static/media/image-man.eaaa94fab00c65665814.png",
+    "static/media/purple-icon.svg": "/portfolio/static/media/purple-icon.aafacbe3c32c7347ff2026843f3c1567.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/union.svg": "/portfolio/static/media/union.c1840f06295c0a2c8a5fcf0eec2b7eb5.svg",
+    "main.b0d23290.css.map": "/portfolio/static/css/main.b0d23290.css.map",
+    "main.b3ba20a9.js.map": "/portfolio/static/js/main.b3ba20a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0d23290.css",
+    "static/js/main.b3ba20a9.js"
+  ]
+}
