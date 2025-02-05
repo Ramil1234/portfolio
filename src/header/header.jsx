@@ -3,6 +3,7 @@ import logo from "../img/union.svg";
 import { Link, Route, Routes } from 'react-router-dom';
 import Home from '../home/home.jsx'
 import Works from "../works/works"; 
+
 function onClicks() {
   const lineFirst = document.querySelector(".mobile-li-line-1");
   const lineTwo = document.querySelector(".mobile-li-line-2");
@@ -29,10 +30,10 @@ function Header() {
           <Link to="/works">works</Link>
         </li>
         <li className="header-li">
-          <Link to="/aboutMe">about-me</Link>
+          <Link to="/about">about-me</Link>
         </li>
         <li className="header-li">
-          <a href="#">contacts</a>
+          <Link to='/contacts'>contacts</Link>
         </li>
       </ul>
       <ul className="header-ul-mobile-list ">
@@ -40,17 +41,17 @@ function Header() {
         <img src={logo} alt="" className="logo" />
         <span className="logo-name">Ramil'</span>
       </div>
-      <li className="header-li">
-          <a href="#">home</a>
+      <li className="header-li" onClick={onClicks}>
+        <Link  to='/'>home</Link>
         </li>
         <li className="header-li">
-          <a href="#">works</a>
+        <Link to="/works" onClick={onClicks}>works</Link>
         </li>
         <li className="header-li">
-          <a href="#">about-me</a>
+        <Link to="/about" onClick={onClicks}>about-me</Link>
         </li>
         <li className="header-li">
-          <a href="#">contacts</a>
+        <Link to='/contacts' onClick={onClicks}>contacts</Link>
         </li>
       </ul>
       <ul className="header-ul-mobile" onClick={onClicks}>

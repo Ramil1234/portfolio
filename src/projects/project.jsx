@@ -1,30 +1,30 @@
 import "../projects/project.sass";
 import ProjectBoxGrid from "./project-box.jsx";
-import imgBox1 from "../img/box-img.jpg";
-import imgBox2 from "../img/box-img2.jpg";
-import imgBox3 from "../img/box-img3.jpg";
+import imgBox1 from "../img/factory.png";
+import imgBox2 from "../img/game-club.png";
+import imgBox3 from "../img/organicVegetables.png";
 function ProjectBox() {
   return (
     <div className="project-box">
       <h2 className="projects-title">projects</h2>
       <div className="project-box-wrapper">
         <ProjectBoxGrid
-          title="ChertNodes"
-          underTitle="HTML, CSS, Python"
+          title="Factory"
+          underTitle="HTML, CSS(SASS), JS(React)"
           imgSrc={imgBox1}
-          underText={"Minecraft servers hosting "}
+          underText={"Доставка строительных инструментов"}
         ></ProjectBoxGrid>
         <ProjectBoxGrid
-          title="ProtectX"
-          underTitle="HTML, CSS, React"
+          title="GameClub"
+          underTitle="HTML, CSS(SASS), JS"
           imgSrc={imgBox2}
-          underText={"Discord anti-crash bot "}
+          underText={"Игровая станция"}
         ></ProjectBoxGrid>
         <ProjectBoxGrid
-          title="Kahoot Answers Viewer"
-          underTitle="HTML, CSS"
+          title="Organic Vegetabel"
+          underTitle="HTML, CSS(SASS), JS"
           imgSrc={imgBox3}
-          underText={"Get answers to your kahoot quiz"}
+          underText={"Organic"}
         ></ProjectBoxGrid>
       </div>
     </div>

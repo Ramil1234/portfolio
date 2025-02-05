@@ -9,7 +9,7 @@ function ProjectBoxGrid({ underTitle, title, underText, imgSrc }) {
           <div className="project-grid-box-untitle">
             <h3>{title}</h3>
             <span className="title-undertitle">{underText}</span>
-            <button className="main-title-button"><span>Live {" <~>"}</span></button>
+            {/* <button className="main-title-button"><span>Live {" <~>"}</span></button> */}
           </div>
         </div>
       </div>

@@ -68,26 +68,26 @@ function Skills() {
           <div className="skills-wrapper-tablet-box">
             <h4 className="tablet-title">Languages</h4>
             <p className="title-undertitle">
-              CSS JAVASCRIPT C++ PYTHON, React Native, Python
+              TypeScript, JavaScript
             </p>
           </div>
-          <div className="skills-wrapper-tablet-box">
+          {/* <div className="skills-wrapper-tablet-box">
             <h4 className="tablet-title">Databases</h4>
-            <p className="title-undertitle">CSS JAVASCRIPT C++ PYTHON</p>
-          </div>
+            <p className="title-undertitle">JavaScript, </p>
+          </div> */}
           <div className="skills-wrapper-tablet-box">
             <h4 className="tablet-title">Tools</h4>
             <p className="title-undertitle">
-              CSS JAVASCRIPT C++ PYTHON, Assembler, React
+              VS Code, Figma, Git, Font Awesome
             </p>
           </div>
           <div className="skills-wrapper-tablet-box">
             <h4 className="tablet-title">Other</h4>
-            <p className="title-undertitle">CSS JAVASCRIPT C++ PYTHON</p>
+            <p className="title-undertitle">CSS, HTML, SCSS, SASS </p>
           </div>
           <div className="skills-wrapper-tablet-box">
             <h4 className="tablet-title">Frameworks</h4>
-            <p className="title-undertitle">CSS JAVASCRIPT C++ PYTHON</p>
+            <p className="title-undertitle">React, Vue</p>
           </div>
         </div>
       </div>

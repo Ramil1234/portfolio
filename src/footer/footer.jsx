@@ -9,11 +9,11 @@ function Footer() {
           <span className="logo-name">Ramil'</span>
         </div>
         <span className="title-undertitle mt-16">
-          Web designer and front-end developer
+          Front-end developer
         </span>
       </div>
       <div className="title-undertitle mb-50">
-        © Copyright 2022. Made by Ramil'
+        © Copyright 2024. Made by Ramil'
       </div>
     </div>
   );

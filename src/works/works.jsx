@@ -1,8 +1,8 @@
 import './works.sass'
 import ProjectBoxGrid from '../projects/project-box.jsx'
-import imgBox1 from "../img/box-img.jpg";
-import imgBox2 from "../img/box-img2.jpg";
-import imgBox3 from "../img/box-img3.jpg";
+import imgBox1 from "../img/factory.png";
+import imgBox2 from "../img/game-club.png";
+import imgBox3 from "../img/organicVegetables.png";
 function Works() {
   return (
     <div className="works">
@@ -13,39 +13,27 @@ function Works() {
         <div className="works-grid">
             <h3 className="works-title works-grid-title">complete-apps</h3>
             <div className="works-grid-wrapper">
-                <ProjectBoxGrid
-            title="ChertNodes"
-            underTitle="HTML, CSS, Python"
-            imgSrc={imgBox1}
-            underText={"Minecraft servers hosting "}
-            ></ProjectBoxGrid>
             <ProjectBoxGrid
-            title="ProtectX"
-            underTitle="HTML, CSS, React"
-            imgSrc={imgBox2}
-            underText={"Discord anti-crash bot "}
-            ></ProjectBoxGrid>
-            <ProjectBoxGrid
-            title="Kahoot Answers Viewer"
-            underTitle="HTML, CSS"
-            imgSrc={imgBox3}
-            underText={"Get answers to your kahoot quiz"}
-            ></ProjectBoxGrid>
-                        <ProjectBoxGrid
-            title="Kahoot Answers Viewer"
-            underTitle="HTML, CSS"
-            imgSrc={imgBox3}
-            underText={"Get answers to your kahoot quiz"}
-            ></ProjectBoxGrid>
-            <ProjectBoxGrid
-            title="ChertNodes"
-            underTitle="HTML, CSS, Python"
-            imgSrc={imgBox1}
-            underText={"Minecraft servers hosting "}
-            ></ProjectBoxGrid>
+          title="Factory"
+          underTitle="HTML, CSS(SASS), JS(React)"
+          imgSrc={imgBox1}
+          underText={"Доставка строительных инструментов"}
+        ></ProjectBoxGrid>
+        <ProjectBoxGrid
+          title="GameClub"
+          underTitle="HTML, CSS(SASS), JS"
+          imgSrc={imgBox2}
+          underText={"Игровая станция"}
+        ></ProjectBoxGrid>
+        <ProjectBoxGrid
+          title="Organic Vegetabel"
+          underTitle="HTML, CSS(SASS), JS"
+          imgSrc={imgBox3}
+          underText={"Organic"}
+        ></ProjectBoxGrid>
             </div>
         </div>
-        <div className="small-works-grid">
+        {/* <div className="small-works-grid">
         <h3 className="works-title works-grid-title">small-projects</h3>
           <div className="small-works-grid-wrapper">
               <div className="small-works-grid-box">
@@ -113,7 +101,7 @@ function Works() {
                   </div>
               </div>
           </div>
-        </div>
+        </div> */}
     </div>
   )
 }

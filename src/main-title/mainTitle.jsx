@@ -10,13 +10,14 @@ function MainTitle() {
       <div className="main-contact-wrapper">
         <div className="main-title-wrapper">
           <h1 className="main-title">
-            Elias is a <span className="color-purple">web designer</span> and{" "}
+            Ramil' is a<span className="color-purple"></span>
             <span className="color-purple">front-end developer</span>
           </h1>
           <p className="main-title-undertitle title-undertitle">
-            He crafts responsive websites where technologies meet creativity
+            
+He is a front-end developer, rapidly gaining experience
           </p>
-          <button className="main-title-button"><span>Contact me !!</span></button>
+          {/* <button className="main-title-button"><span>Contact me !!</span></button> */}
         </div>
         <div className="main-contact-img">
           <div className="main-contact-img-wrapper">

@@ -9,17 +9,10 @@ function About() {
       <div className="about-wrapper">
         <div className="about-text">
           <p className="title-undertitle">
-            Hello, i’m Elias!<br></br> <br></br> <br></br>I’m a self-taught
-            front-end developer based in Kyiv, Ukraine. I can develop responsive
-            websites from scratch and raise them into modern user-friendly web
-            experiences.
-            <br></br>
-            <br></br>
-            <br></br>
-            Transforming my creativity and knowledge into a websites has been my
-            passion for over a year. I have been helping various clients to
-            establish their presence online. I always strive to learn about the
-            newest technologies and frameworks.
+          Привет, я Рамиль! <br></br><br></br>
+          Я родом из Казани,самоучка, Frontend-разработчик. Более того, моя специализация — разработка адаптивных веб-сайтов с нуля и превращение их в прогрессивные, удобные для пользователя веб-приложения.
+          <br></br><br></br>
+В течение прошлого года я с энтузиазмом использовал свои знания и навыки для создания отличных веб-сайтов. Я постоянно стремлюсь изучать последние технологии и фреймворки, чтобы расширить стек разработки.
           </p>
           <button className="main-title-button">
             <span>Read more <FontAwesomeIcon icon={faArrowRight} /></span>
