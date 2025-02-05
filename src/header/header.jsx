@@ -42,7 +42,7 @@ function Header() {
         <span className="logo-name">Ramil'</span>
       </div>
       <li className="header-li" onClick={onClicks}>
-        <Link  to='/'>home</Link>
+        <Link  to='/portfolio'>home</Link>
         </li>
         <li className="header-li">
         <Link to="/works" onClick={onClicks}>works</Link>
