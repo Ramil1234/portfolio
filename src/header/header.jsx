@@ -24,7 +24,7 @@ function Header() {
       </div>
       <ul className="header-ul">
         <li className="header-li">
-          <Link  to='/'>home</Link>
+          <Link  to='/portfolio'>home</Link>
         </li>
         <li className="header-li">
           <Link to="/works">works</Link>
